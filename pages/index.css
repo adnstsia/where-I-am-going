@@ -1,11 +1,43 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+
+/* Content */
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__intro/content__intro.css);
+@import url(../blocks/content/__quotes/content__quotes.css);
+
+/* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__links/_dreams/header__links_dreams.css);
 @import url(../blocks/header/__links/_expectations/header__links_expectations.css);
 @import url(../blocks/header/__links/_reality/header__links_reality.css);
 @import url(../blocks/header/__complain/header__complain.css);
+
+/* Intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__titles/intro__titles.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+
+/* Journal-grid */
 @import url(../blocks/journal-grid/journal-grid.css);
 @import url(../blocks/journal-grid/__image/journal-grid__image.css);
 @import url(../blocks/journal-grid/__text/journal-grid__text.css);
+
+/* Quotes */
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__title/quotes__title.css);
+@import url(../blocks/quotes/__subtitle/quotes__subtitle.css);
+
+/* Cards */
+@import url(../blocks/cards/cards.css);
+
+/* Card */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__author/card__author.css);
+@import url(../blocks/card/__quote/card__quote.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__caption/footer__caption.css);
