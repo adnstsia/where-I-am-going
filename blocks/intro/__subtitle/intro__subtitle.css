@@ -1,6 +1,9 @@
 .intro__subtitle {
     text-transform: uppercase;
+    font-family: 'Futura New';
     font-weight: 500;
+    font-style: normal;
     color: #FECEA8;
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 20px;
 }
