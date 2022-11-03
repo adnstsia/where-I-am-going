@@ -6,6 +6,7 @@
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+
 .intro__image:hover {
   cursor: pointer;
   border-radius: 50%;

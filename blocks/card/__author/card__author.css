@@ -1,10 +1,10 @@
 .card__author {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 20.1px;
   font-family: 'Futura New Demi';
   font-weight: normal;
   font-style: normal;
   letter-spacing: -0.030em;
-  word-spacing: 8px;
+  word-spacing: 5px;
   text-transform: uppercase;
 }
