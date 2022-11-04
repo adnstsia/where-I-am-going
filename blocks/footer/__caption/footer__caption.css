@@ -1,6 +1,33 @@
 .footer__caption {
+  color: #010101;
   font-size: 40px;
   font-family: 'Futura New Demi';
   font-weight: normal;
   font-style: normal;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
 }
+
+.footer__caption::before {
+  position: absolute;
+  content: attr(data-content);
+  top: 0;
+  left: 0;
+  color: #216560;
+  overflow: hidden;
+  transition: width 275ms ease;
+  width: 0;
+  white-space: nowrap;
+}
+
+caption:hover {
+  cursor: pointer;
+}
+
+.footer__caption:hover::before {
+  width: 100%;
+}
+
+

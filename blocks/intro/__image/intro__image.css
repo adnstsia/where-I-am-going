@@ -14,3 +14,30 @@
   transform: rotate(360deg);
 }
 
+@media screen and (max-width: 1200px) {
+  .intro__image {
+    width: 330px;
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .intro__image {
+    width: 255px;
+    height: 255px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro__image {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .intro__image {
+    width: 190px;
+    height: 190px;
+  }
+}
