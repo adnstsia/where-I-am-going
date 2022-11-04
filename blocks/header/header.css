@@ -8,6 +8,8 @@
   color: black;
   height: 123px;
   position: fixed;
+  max-width: 1120px;
+  margin: 0 auto;
   top: 0;
   left: 0;
   right: 0;

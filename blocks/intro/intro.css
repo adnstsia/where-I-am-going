@@ -3,3 +3,47 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 760px) {
+  .intro {
+    min-height: 440px;
+    background-image: url('../../images/intro-image.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .intro:hover {
+    color: #FECEA8;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 760px) {
+  .intro::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #2a2c2f;
+    opacity: .3;
+    z-index: -1;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .intro:hover::before {
+    opacity: .7;
+  }
+}

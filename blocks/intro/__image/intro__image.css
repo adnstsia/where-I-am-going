@@ -35,9 +35,8 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 760px) {
   .intro__image {
-    width: 190px;
-    height: 190px;
+    display: none;
   }
 }
