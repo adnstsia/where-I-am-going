@@ -25,6 +25,10 @@
 @import url(../blocks/journal-grid/journal-grid.css);
 @import url(../blocks/journal-grid/__image/journal-grid__image.css);
 @import url(../blocks/journal-grid/__text/journal-grid__text.css);
+@import url(../blocks/journal-grid/__text/_paragraph/journal-grid__text_paragraph.css);
+@import url(../blocks/journal-grid/__text/_paragraph-no-indent/journal-grid__text_paragraph-no-indent.css);
+@import url(../blocks/journal-grid/__text/_paragraph-indent/journal-grid__text_paragraph-indent.css);
+@import url(../blocks/journal-grid/__text/_title/journal-grid__text_title.css);
 
 /* Quotes */
 @import url(../blocks/quotes/quotes.css);
