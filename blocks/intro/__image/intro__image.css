@@ -3,14 +3,12 @@
   width: 418px;
   height: 418px;
   overflow: hidden;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  border-radius: 50%;
+  transition: all 0.9s ease;
 }
 
 .intro__image:hover {
   cursor: pointer;
-  border-radius: 50%;
-  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
