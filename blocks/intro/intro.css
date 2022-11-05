@@ -47,3 +47,23 @@
     opacity: .7;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .intro {
+    min-height: 400px;
+    background-image: url('../../images/intro-image.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro {
+    min-height: 350px;
+  }
+}
