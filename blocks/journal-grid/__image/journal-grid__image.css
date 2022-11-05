@@ -3,3 +3,11 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 940px) {
+  .journal-grid__image:nth-child(2n) {
+  grid-row: 3/4;
+  }
+}
+
+
