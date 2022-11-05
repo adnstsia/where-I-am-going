@@ -1,3 +1,12 @@
+@keyframes link {
+  from {
+    font-size: 14px;
+  }
+  to {
+    font-size: 16px;
+  }
+}
+
 .header__links_expectations {
   font-family: 'Futura New Demi';
   font-size: 14px;
@@ -5,4 +14,20 @@
   font-style: normal;
   line-height: 18px;
   letter-spacing: 0em;
+  text-decoration: none;
+  color: black;
+  transition: .2s;
+}
+
+.header__links_expectations:hover {
+  opacity: 0.8;
+  color: black;
+  text-shadow: #fecea8 1px 0 10px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 509px) {
+  .header__links_expectations {
+    font-size: 12px;
+  }
 }

@@ -9,4 +9,21 @@
   letter-spacing: 0em;
   margin-top: 0;
   align-self: center;
+  text-decoration: none;
+  color: black;
+  transition: .2s;
 }
+
+.header__complain:hover {
+  opacity: 0.8;
+  color: black;
+  text-shadow: #a7c2d7 1px 0 10px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 509px) {
+  .header__complain {
+    font-size: 12px;
+  }
+}
+
